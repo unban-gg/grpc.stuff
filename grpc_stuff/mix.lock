@@ -1,0 +1,8 @@
+%{
+  "cowboy": {:hex, :cowboy, "2.9.0", "865dd8b6607e14cf03282e10e934023a1bd8be6f6bacf921a7e2a96d800cd452", [:make, :rebar3], [{:cowlib, "2.11.0", [hex: :cowlib, repo: "hexpm", optional: false]}, {:ranch, "1.8.0", [hex: :ranch, repo: "hexpm", optional: false]}], "hexpm", "2c729f934b4e1aa149aff882f57c6372c15399a20d54f65c8d67bef583021bde"},
+  "cowlib": {:hex, :grpc_cowlib, "2.8.1", "ddaf77f3b89bd8e6c76df67b28a4b069688eef91c0c497a246cf9bfcdf87f7d3", [:rebar3], [], "hexpm", "0366f82719d24af4ce45a6591f52a7fc859785823fde4cd84e0dc45119b5ed89"},
+  "grpc": {:git, "https://github.com/tony612/grpc-elixir.git", "eff8a8828d27ddd7f63a3c1dd5aae86246df215e", []},
+  "gun": {:hex, :grpc_gun, "2.0.0", "f99678a2ab975e74372a756c86ec30a8384d3ac8a8b86c7ed6243ef4e61d2729", [:rebar3], [{:cowlib, "~> 2.8.0", [hex: :cowlib, repo: "hexpm", optional: false]}], "hexpm", "03dbbca1a9c604a0267a40ea1d69986225091acb822de0b2dbea21d5815e410b"},
+  "protobuf": {:git, "https://github.com/elixir-protobuf/protobuf-elixir.git", "ff6cde79506452ee8d67dcd4addc413c8cb78272", []},
+  "ranch": {:hex, :ranch, "1.8.0", "8c7a100a139fd57f17327b6413e4167ac559fbc04ca7448e9be9057311597a1d", [:make, :rebar3], [], "hexpm", "49fbcfd3682fab1f5d109351b61257676da1a2fdbe295904176d5e521a2ddfe5"},
+}
